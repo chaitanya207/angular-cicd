@@ -1,0 +1,9 @@
+image:18.13.0-bullseye
+stages:
+    - setup
+    - test
+
+install:
+    stage: setup
+    script:
+      - npm ci
